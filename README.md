@@ -1,7 +1,7 @@
 ## ssh-exec
 
 `ssh-exec` is a wrapper around Net::SSH based on
-[http://stackoverflow.com/questions/3386233/how-to-get-exit-status-with-rubys-netssh-library/3386375#3386375](this)
+[This](http://stackoverflow.com/questions/3386233/how-to-get-exit-status-with-rubys-netssh-library/3386375#3386375)
 StackOverflow answer, allowing to easily capture standard output, standard error, and the exit code
 of a command executed over [Net::SSH](https://github.com/net-ssh/net-ssh).
 
@@ -24,5 +24,5 @@ end
 
 ### License
 
-[http://www.apache.org/licenses/LICENSE-2.0.html](Apache License, Version 2.0)
+[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
 
