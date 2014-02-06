@@ -20,7 +20,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'net-ssh', '~> 2.0'
 
   gem.add_development_dependency 'rake', '~> 10.1'
-
   gem.add_development_dependency 'rspec', '~> 2.14'
+  gem.add_development_dependency 'rubygems-tasks', '~> 0.2'
 
 end
