@@ -5,6 +5,8 @@
 allowing to easily capture standard output, standard error, and the exit code
 of a command executed over [Net::SSH](https://github.com/net-ssh/net-ssh).
 
+This gem is hosted at http://rubygems.org/gems/ssh-exec.
+
 ### Examples
 
 ```ruby
