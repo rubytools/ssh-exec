@@ -1,8 +1,8 @@
 ## ssh-exec
 
-`ssh-exec` is a wrapper around Net::SSH based on
-[This](http://stackoverflow.com/questions/3386233/how-to-get-exit-status-with-rubys-netssh-library/3386375#3386375)
-StackOverflow answer, allowing to easily capture standard output, standard error, and the exit code
+`ssh-exec` is a wrapper around Net::SSH based on a
+[StackOverflow answer](http://stackoverflow.com/questions/3386233/how-to-get-exit-status-with-rubys-netssh-library/3386375#3386375),
+allowing to easily capture standard output, standard error, and the exit code
 of a command executed over [Net::SSH](https://github.com/net-ssh/net-ssh).
 
 ### Examples
