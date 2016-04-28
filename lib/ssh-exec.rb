@@ -29,8 +29,8 @@ module SshExec
   # @return [OpenStruct] a struct containing `stdout`, `stderr`, `exit_status`, and `exit_signal`
   def self.ssh_exec!(ssh, command, options = {})
     options = options.clone
-    echo_stdout = options[:echo_stdout]
-    echo_stderr = options[:echo_stderr]
+    echo_stdout = options.delete(:echo_stdout)
+    echo_stderr = options.delete(:echo_stderr)
     raise "Invalid options: #{options}" unless options.empty?
 
     stdout_data = ""
